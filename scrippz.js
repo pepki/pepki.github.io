@@ -3,7 +3,7 @@ const updateTimer = () => {
     document.querySelectorAll('.hidden').forEach(element => element.classList.remove('hidden'));
 
     // when the party shall commence
-    let diff = new Date(Date.UTC(2020, 12, 29, 19, 0, 0, 0)).getTime() - new Date().getTime();
+    let diff = new Date(Date.UTC(2020, 11, 29, 19, 0, 0, 0)).getTime() - new Date().getTime();
 
     if (diff <= 0) {
         document.querySelectorAll('.i-am-hidden-yes').forEach(element => element.classList.remove('i-am-hidden-yes'));
